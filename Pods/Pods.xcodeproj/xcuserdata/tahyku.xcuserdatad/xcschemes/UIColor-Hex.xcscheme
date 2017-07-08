@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "849B1658DC6A9A9CF69D4AC45953FBE3"
+               BlueprintIdentifier = "9D973A4B0B88FADA7932899BD5942667"
                BuildableName = "UIColor_Hex.framework"
                BlueprintName = "UIColor-Hex"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "849B1658DC6A9A9CF69D4AC45953FBE3"
+            BlueprintIdentifier = "9D973A4B0B88FADA7932899BD5942667"
             BuildableName = "UIColor_Hex.framework"
             BlueprintName = "UIColor-Hex"
             ReferencedContainer = "container:Pods.xcodeproj">

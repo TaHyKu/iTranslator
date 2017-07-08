@@ -15,7 +15,7 @@
 #import <Crashlytics/Crashlytics.h>
 #import <CoreData/CoreData.h>
 #import <MagicalRecord/MagicalRecord.h>
-#import <RestKit/RestKit.h>
+#import "SVProgressHUD.h"
 
 #import "ViewControllers.h"
 #import "CellBuilders.h"

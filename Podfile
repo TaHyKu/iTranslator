@@ -9,4 +9,5 @@ target 'iTranslator' do
     pod 'MagicalRecord'
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'SVProgressHUD'
 end

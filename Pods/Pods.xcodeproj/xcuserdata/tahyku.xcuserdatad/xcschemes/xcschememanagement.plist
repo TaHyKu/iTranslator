@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ISO8601DateFormatterValueTransformer.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,22 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RKValueTransformers.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RestKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SOCKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>TransitionKit.xcscheme</key>
+		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,27 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>311B09332836E2629EFC8E2A0686338D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5122B4487A1C44C9283946529F584161</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>849B1658DC6A9A9CF69D4AC45953FBE3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8A1301B3BD60BBDBC71BFF0793814556</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91A1F3309C63E1A347FE2543E5054EAF</key>
+		<key>01B5C2B17226F92A2F76E3EA37C29512</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,12 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A971363C5DB53A904A2047EF3E21A9D9</key>
+		<key>9A16259CF0A15FAD8F3D7B97D7E71296</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6141264202336CA564338084E416826</key>
+		<key>9D973A4B0B88FADA7932899BD5942667</key>
 		<dict>
 			<key>primary</key>
 			<true/>

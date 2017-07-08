@@ -120,6 +120,7 @@
         NSString *translation = ([dictionary[codeKey] integerValue] == 200) ? dictionary[textKey][0] : @"Error";
         [[IADataBaseManager shared] updateWord:word with:translation];
     } failure:^(NSError *error) {
+        [SVProgressHUD showErrorWithStatus:error.localizedDescription];
     }];
 }
 
