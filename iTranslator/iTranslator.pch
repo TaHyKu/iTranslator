@@ -1,0 +1,27 @@
+//
+//  iTranslator.pch
+//  iTranslator
+//
+//  Created by TaHyKu on 07.07.17.
+//  Copyright © 2017 TaHyKu. All rights reserved.
+//
+
+#import "Constants.h"
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import <CoreData/CoreData.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <RestKit/RestKit.h>
+
+#import "ViewControllers.h"
+#import "CellBuilders.h"
+#import "Views.h"
+#import "Additions.h"
+#import "Managers.h"
+#import "Model.h"
+
+

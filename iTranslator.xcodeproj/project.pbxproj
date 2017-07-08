@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EDE15EB148D62EFB2E8D5E /* Pods_iTranslator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D901E57C6CC4698B387C53 /* Pods_iTranslator.framework */; };
+		8B5F97051F0EBBC800BEC062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97041F0EBBC800BEC062 /* main.m */; };
+		8B5F97131F0EBBC800BEC062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F97121F0EBBC800BEC062 /* Assets.xcassets */; };
+		8B5F97211F0EBBC800BEC062 /* iTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97201F0EBBC800BEC062 /* iTranslatorTests.m */; };
+		8B5F972C1F0EBBC800BEC062 /* iTranslatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F972B1F0EBBC800BEC062 /* iTranslatorUITests.m */; };
+		8B5F974B1F0EBCD200BEC062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97411F0EBCD200BEC062 /* AppDelegate.m */; };
+		8B5F974C1F0EBCD200BEC062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F97491F0EBCD200BEC062 /* LaunchScreen.storyboard */; };
+		8B5F974D1F0EBCD200BEC062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F974A1F0EBCD200BEC062 /* Main.storyboard */; };
+		8B5F97521F0EC37B00BEC062 /* IAWordsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97511F0EC37B00BEC062 /* IAWordsTableViewCell.m */; };
+		8B5F97551F0EC3A000BEC062 /* IATranslatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97541F0EC3A000BEC062 /* IATranslatorViewController.m */; };
+		8B5F975E1F0F84BE00BEC062 /* IAInputContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F975D1F0F84BE00BEC062 /* IAInputContainerView.m */; };
+		8B5F97611F0F85F800BEC062 /* IATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97601F0F85F800BEC062 /* IATableView.m */; };
+		8B5F97661F0F8EBC00BEC062 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97651F0F8EBC00BEC062 /* UIView+Addition.m */; };
+		8B5F976A1F0F914D00BEC062 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97691F0F914D00BEC062 /* UIColor+Addition.m */; };
+		8B5F97731F0F9B4B00BEC062 /* IATranslatorCellBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97721F0F9B4B00BEC062 /* IATranslatorCellBuilder.m */; };
+		8B5F97761F0FAE9A00BEC062 /* IAWordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F97751F0FAE9A00BEC062 /* IAWordsTableViewCell.xib */; };
+		8B5F977B1F0FEFB400BEC062 /* IAServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F977A1F0FEFB400BEC062 /* IAServerManager.m */; };
+		8B5F977F1F0FFA7200BEC062 /* iTranslator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F977D1F0FFA7200BEC062 /* iTranslator.xcdatamodeld */; };
+		8B5F97891F10099100BEC062 /* IAServerManager+Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97881F10099100BEC062 /* IAServerManager+Translation.m */; };
+		8B5F978D1F10118A00BEC062 /* NSDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F978C1F10118A00BEC062 /* NSDictionary+Addition.m */; };
+		8B5F97901F10263300BEC062 /* IADataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F978F1F10263300BEC062 /* IADataBaseManager.m */; };
+		8B5F97931F10313C00BEC062 /* _IAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97921F10313C00BEC062 /* _IAWord.m */; };
+		8B5F97961F10314600BEC062 /* IAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F97951F10314600BEC062 /* IAWord.m */; };
+		8BAD6A801F113764006D671E /* IAStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD6A7F1F113764006D671E /* IAStartViewController.m */; };
+		8BAD6A8D1F115DAC006D671E /* LaunchAppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD6A8C1F115DAC006D671E /* LaunchAppLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B5F971D1F0EBBC800BEC062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5F96F81F0EBBC800BEC062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5F96FF1F0EBBC800BEC062;
+			remoteInfo = iTranslator;
+		};
+		8B5F97281F0EBBC800BEC062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5F96F81F0EBBC800BEC062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5F96FF1F0EBBC800BEC062;
+			remoteInfo = iTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D901E57C6CC4698B387C53 /* Pods_iTranslator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTranslator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AC116A14F0841324DC05BC /* Pods-iTranslator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTranslator.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTranslator/Pods-iTranslator.release.xcconfig"; sourceTree = "<group>"; };
+		8B5F97001F0EBBC800BEC062 /* iTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5F97041F0EBBC800BEC062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B5F97121F0EBBC800BEC062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B5F97171F0EBBC800BEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5F971C1F0EBBC800BEC062 /* iTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5F97201F0EBBC800BEC062 /* iTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTranslatorTests.m; sourceTree = "<group>"; };
+		8B5F97221F0EBBC800BEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5F97271F0EBBC800BEC062 /* iTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5F972B1F0EBBC800BEC062 /* iTranslatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTranslatorUITests.m; sourceTree = "<group>"; };
+		8B5F972D1F0EBBC800BEC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5F97401F0EBCD200BEC062 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B5F97411F0EBCD200BEC062 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B5F97491F0EBCD200BEC062 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B5F974A1F0EBCD200BEC062 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B5F97501F0EC37B00BEC062 /* IAWordsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAWordsTableViewCell.h; sourceTree = "<group>"; };
+		8B5F97511F0EC37B00BEC062 /* IAWordsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAWordsTableViewCell.m; sourceTree = "<group>"; };
+		8B5F97531F0EC3A000BEC062 /* IATranslatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATranslatorViewController.h; sourceTree = "<group>"; };
+		8B5F97541F0EC3A000BEC062 /* IATranslatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATranslatorViewController.m; sourceTree = "<group>"; };
+		8B5F975C1F0F84BE00BEC062 /* IAInputContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAInputContainerView.h; sourceTree = "<group>"; };
+		8B5F975D1F0F84BE00BEC062 /* IAInputContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAInputContainerView.m; sourceTree = "<group>"; };
+		8B5F975F1F0F85F800BEC062 /* IATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATableView.h; sourceTree = "<group>"; };
+		8B5F97601F0F85F800BEC062 /* IATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATableView.m; sourceTree = "<group>"; };
+		8B5F97621F0F8E6100BEC062 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8B5F97641F0F8EBC00BEC062 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		8B5F97651F0F8EBC00BEC062 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		8B5F97681F0F914D00BEC062 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		8B5F97691F0F914D00BEC062 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		8B5F976B1F0F92D500BEC062 /* iTranslator.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTranslator.pch; sourceTree = "<group>"; };
+		8B5F976C1F0F9A2400BEC062 /* ViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllers.h; sourceTree = "<group>"; };
+		8B5F976D1F0F9A6A00BEC062 /* Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Additions.h; sourceTree = "<group>"; };
+		8B5F976E1F0F9AAF00BEC062 /* Cells.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cells.h; sourceTree = "<group>"; };
+		8B5F976F1F0F9ADD00BEC062 /* Views.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Views.h; sourceTree = "<group>"; };
+		8B5F97711F0F9B4B00BEC062 /* IATranslatorCellBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATranslatorCellBuilder.h; sourceTree = "<group>"; };
+		8B5F97721F0F9B4B00BEC062 /* IATranslatorCellBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATranslatorCellBuilder.m; sourceTree = "<group>"; };
+		8B5F97741F0F9B5800BEC062 /* CellBuilders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellBuilders.h; sourceTree = "<group>"; };
+		8B5F97751F0FAE9A00BEC062 /* IAWordsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAWordsTableViewCell.xib; sourceTree = "<group>"; };
+		8B5F97791F0FEFB400BEC062 /* IAServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAServerManager.h; sourceTree = "<group>"; };
+		8B5F977A1F0FEFB400BEC062 /* IAServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAServerManager.m; sourceTree = "<group>"; };
+		8B5F977E1F0FFA7200BEC062 /* iTranslator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTranslator.xcdatamodel; sourceTree = "<group>"; };
+		8B5F97851F10047700BEC062 /* Managers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Managers.h; sourceTree = "<group>"; };
+		8B5F97871F10099100BEC062 /* IAServerManager+Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IAServerManager+Translation.h"; sourceTree = "<group>"; };
+		8B5F97881F10099100BEC062 /* IAServerManager+Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IAServerManager+Translation.m"; sourceTree = "<group>"; };
+		8B5F978B1F10118A00BEC062 /* NSDictionary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addition.h"; sourceTree = "<group>"; };
+		8B5F978C1F10118A00BEC062 /* NSDictionary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addition.m"; sourceTree = "<group>"; };
+		8B5F978E1F10263300BEC062 /* IADataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADataBaseManager.h; sourceTree = "<group>"; };
+		8B5F978F1F10263300BEC062 /* IADataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADataBaseManager.m; sourceTree = "<group>"; };
+		8B5F97911F10313C00BEC062 /* _IAWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _IAWord.h; sourceTree = "<group>"; };
+		8B5F97921F10313C00BEC062 /* _IAWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _IAWord.m; sourceTree = "<group>"; };
+		8B5F97941F10314600BEC062 /* IAWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAWord.h; sourceTree = "<group>"; };
+		8B5F97951F10314600BEC062 /* IAWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAWord.m; sourceTree = "<group>"; };
+		8BAD6A7E1F113764006D671E /* IAStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAStartViewController.h; sourceTree = "<group>"; };
+		8BAD6A7F1F113764006D671E /* IAStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAStartViewController.m; sourceTree = "<group>"; };
+		8BAD6A8C1F115DAC006D671E /* LaunchAppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchAppLogo.png; sourceTree = "<group>"; };
+		8BAD6A8E1F116676006D671E /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C6C53CE4009D2CB62CF3752D /* Pods-iTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTranslator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTranslator/Pods-iTranslator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B5F96FD1F0EBBC800BEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDE15EB148D62EFB2E8D5E /* Pods_iTranslator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F97191F0EBBC800BEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F97241F0EBBC800BEC062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F11F2B9ABC0355524DE924E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D901E57C6CC4698B387C53 /* Pods_iTranslator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C21523FCFE4E107C5A95DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6C53CE4009D2CB62CF3752D /* Pods-iTranslator.debug.xcconfig */,
+				89AC116A14F0841324DC05BC /* Pods-iTranslator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B5F96F71F0EBBC800BEC062 = {
+			isa = PBXGroup;
+			children = (
+				8B5F97021F0EBBC800BEC062 /* iTranslator */,
+				8B5F971F1F0EBBC800BEC062 /* iTranslatorTests */,
+				8B5F972A1F0EBBC800BEC062 /* iTranslatorUITests */,
+				8B5F97011F0EBBC800BEC062 /* Products */,
+				4C21523FCFE4E107C5A95DD8 /* Pods */,
+				1F11F2B9ABC0355524DE924E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B5F97011F0EBBC800BEC062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97001F0EBBC800BEC062 /* iTranslator.app */,
+				8B5F971C1F0EBBC800BEC062 /* iTranslatorTests.xctest */,
+				8B5F97271F0EBBC800BEC062 /* iTranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B5F97021F0EBBC800BEC062 /* iTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F973D1F0EBCD200BEC062 /* Classes */,
+				8B5F97481F0EBCD200BEC062 /* Storyboards */,
+				8B5F97121F0EBBC800BEC062 /* Assets.xcassets */,
+				8B5F97171F0EBBC800BEC062 /* Info.plist */,
+				8B5F97031F0EBBC800BEC062 /* Supporting Files */,
+			);
+			path = iTranslator;
+			sourceTree = "<group>";
+		};
+		8B5F97031F0EBBC800BEC062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD6A8C1F115DAC006D671E /* LaunchAppLogo.png */,
+				8B5F97041F0EBBC800BEC062 /* main.m */,
+				8B5F976B1F0F92D500BEC062 /* iTranslator.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B5F971F1F0EBBC800BEC062 /* iTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97201F0EBBC800BEC062 /* iTranslatorTests.m */,
+				8B5F97221F0EBBC800BEC062 /* Info.plist */,
+			);
+			path = iTranslatorTests;
+			sourceTree = "<group>";
+		};
+		8B5F972A1F0EBBC800BEC062 /* iTranslatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F972B1F0EBBC800BEC062 /* iTranslatorUITests.m */,
+				8B5F972D1F0EBBC800BEC062 /* Info.plist */,
+			);
+			path = iTranslatorUITests;
+			sourceTree = "<group>";
+		};
+		8B5F973D1F0EBCD200BEC062 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97561F0EC50B00BEC062 /* CellBuilders */,
+				8B5F973E1F0EBCD200BEC062 /* Additions */,
+				8B5F973F1F0EBCD200BEC062 /* AppDelegate */,
+				8B5F97421F0EBCD200BEC062 /* Managers */,
+				8B5F97431F0EBCD200BEC062 /* Model */,
+				8B5F97441F0EBCD200BEC062 /* ViewControllers */,
+				8B5F97461F0EBCD200BEC062 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B5F973E1F0EBCD200BEC062 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F978A1F10117300BEC062 /* NSDictionary */,
+				8B5F97671F0F912F00BEC062 /* UIColor */,
+				8B5F97631F0F8E8C00BEC062 /* UIView */,
+				8B5F97621F0F8E6100BEC062 /* Constants.h */,
+				8B5F976D1F0F9A6A00BEC062 /* Additions.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		8B5F973F1F0EBCD200BEC062 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97401F0EBCD200BEC062 /* AppDelegate.h */,
+				8B5F97411F0EBCD200BEC062 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8B5F97421F0EBCD200BEC062 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97771F0FEF4600BEC062 /* DataBase */,
+				8B5F97781F0FEF4600BEC062 /* Server */,
+				8B5F97851F10047700BEC062 /* Managers.h */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8B5F97431F0EBCD200BEC062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97801F0FFB8900BEC062 /* Machine */,
+				8B5F97811F0FFB8900BEC062 /* Human */,
+				8B5F977D1F0FFA7200BEC062 /* iTranslator.xcdatamodeld */,
+				8BAD6A8E1F116676006D671E /* Model.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B5F97441F0EBCD200BEC062 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD6A7D1F11374C006D671E /* Start */,
+				8B5F97451F0EBCD200BEC062 /* Translator */,
+				8B5F976C1F0F9A2400BEC062 /* ViewControllers.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B5F97451F0EBCD200BEC062 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97531F0EC3A000BEC062 /* IATranslatorViewController.h */,
+				8B5F97541F0EC3A000BEC062 /* IATranslatorViewController.m */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		8B5F97461F0EBCD200BEC062 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F975A1F0F849D00BEC062 /* TableView */,
+				8B5F975B1F0F849D00BEC062 /* InputContainer */,
+				8B5F97471F0EBCD200BEC062 /* Cells */,
+				8B5F976F1F0F9ADD00BEC062 /* Views.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B5F97471F0EBCD200BEC062 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F974F1F0EC35300BEC062 /* Words */,
+				8B5F976E1F0F9AAF00BEC062 /* Cells.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8B5F97481F0EBCD200BEC062 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97491F0EBCD200BEC062 /* LaunchScreen.storyboard */,
+				8B5F974A1F0EBCD200BEC062 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B5F974F1F0EC35300BEC062 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97501F0EC37B00BEC062 /* IAWordsTableViewCell.h */,
+				8B5F97511F0EC37B00BEC062 /* IAWordsTableViewCell.m */,
+				8B5F97751F0FAE9A00BEC062 /* IAWordsTableViewCell.xib */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		8B5F97561F0EC50B00BEC062 /* CellBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97701F0F9B4B00BEC062 /* Translator */,
+				8B5F97741F0F9B5800BEC062 /* CellBuilders.h */,
+			);
+			path = CellBuilders;
+			sourceTree = "<group>";
+		};
+		8B5F975A1F0F849D00BEC062 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F975F1F0F85F800BEC062 /* IATableView.h */,
+				8B5F97601F0F85F800BEC062 /* IATableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		8B5F975B1F0F849D00BEC062 /* InputContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F975C1F0F84BE00BEC062 /* IAInputContainerView.h */,
+				8B5F975D1F0F84BE00BEC062 /* IAInputContainerView.m */,
+			);
+			path = InputContainer;
+			sourceTree = "<group>";
+		};
+		8B5F97631F0F8E8C00BEC062 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97641F0F8EBC00BEC062 /* UIView+Addition.h */,
+				8B5F97651F0F8EBC00BEC062 /* UIView+Addition.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8B5F97671F0F912F00BEC062 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97681F0F914D00BEC062 /* UIColor+Addition.h */,
+				8B5F97691F0F914D00BEC062 /* UIColor+Addition.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		8B5F97701F0F9B4B00BEC062 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97711F0F9B4B00BEC062 /* IATranslatorCellBuilder.h */,
+				8B5F97721F0F9B4B00BEC062 /* IATranslatorCellBuilder.m */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		8B5F97771F0FEF4600BEC062 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F978E1F10263300BEC062 /* IADataBaseManager.h */,
+				8B5F978F1F10263300BEC062 /* IADataBaseManager.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		8B5F97781F0FEF4600BEC062 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97861F10096C00BEC062 /* Translation */,
+				8B5F97791F0FEFB400BEC062 /* IAServerManager.h */,
+				8B5F977A1F0FEFB400BEC062 /* IAServerManager.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		8B5F97801F0FFB8900BEC062 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97911F10313C00BEC062 /* _IAWord.h */,
+				8B5F97921F10313C00BEC062 /* _IAWord.m */,
+			);
+			path = Machine;
+			sourceTree = "<group>";
+		};
+		8B5F97811F0FFB8900BEC062 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97941F10314600BEC062 /* IAWord.h */,
+				8B5F97951F10314600BEC062 /* IAWord.m */,
+			);
+			path = Human;
+			sourceTree = "<group>";
+		};
+		8B5F97861F10096C00BEC062 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F97871F10099100BEC062 /* IAServerManager+Translation.h */,
+				8B5F97881F10099100BEC062 /* IAServerManager+Translation.m */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		8B5F978A1F10117300BEC062 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F978B1F10118A00BEC062 /* NSDictionary+Addition.h */,
+				8B5F978C1F10118A00BEC062 /* NSDictionary+Addition.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		8BAD6A7D1F11374C006D671E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD6A7E1F113764006D671E /* IAStartViewController.h */,
+				8BAD6A7F1F113764006D671E /* IAStartViewController.m */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B5F96FF1F0EBBC800BEC062 /* iTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F97301F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslator" */;
+			buildPhases = (
+				A0A50CAB6A42B8027F5B73C9 /* [CP] Check Pods Manifest.lock */,
+				8B5F96FC1F0EBBC800BEC062 /* Sources */,
+				8B5F96FD1F0EBBC800BEC062 /* Frameworks */,
+				8B5F96FE1F0EBBC800BEC062 /* Resources */,
+				3E59776FE7675AE4EB8FFAD6 /* [CP] Embed Pods Frameworks */,
+				63EF97EE8E8002E8D0A6110F /* [CP] Copy Pods Resources */,
+				8B5F974E1F0EC07000BEC062 /* Fabric */,
+				8B5F977C1F0FF9F100BEC062 /* Mogenerator */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTranslator;
+			productName = iTranslator;
+			productReference = 8B5F97001F0EBBC800BEC062 /* iTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B5F971B1F0EBBC800BEC062 /* iTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F97331F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslatorTests" */;
+			buildPhases = (
+				8B5F97181F0EBBC800BEC062 /* Sources */,
+				8B5F97191F0EBBC800BEC062 /* Frameworks */,
+				8B5F971A1F0EBBC800BEC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5F971E1F0EBBC800BEC062 /* PBXTargetDependency */,
+			);
+			name = iTranslatorTests;
+			productName = iTranslatorTests;
+			productReference = 8B5F971C1F0EBBC800BEC062 /* iTranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B5F97261F0EBBC800BEC062 /* iTranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5F97361F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslatorUITests" */;
+			buildPhases = (
+				8B5F97231F0EBBC800BEC062 /* Sources */,
+				8B5F97241F0EBBC800BEC062 /* Frameworks */,
+				8B5F97251F0EBBC800BEC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5F97291F0EBBC800BEC062 /* PBXTargetDependency */,
+			);
+			name = iTranslatorUITests;
+			productName = iTranslatorUITests;
+			productReference = 8B5F97271F0EBBC800BEC062 /* iTranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B5F96F81F0EBBC800BEC062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TaHyKu;
+				TargetAttributes = {
+					8B5F96FF1F0EBBC800BEC062 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 827FSHSMGP;
+						ProvisioningStyle = Automatic;
+					};
+					8B5F971B1F0EBBC800BEC062 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B5F96FF1F0EBBC800BEC062;
+					};
+					8B5F97261F0EBBC800BEC062 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B5F96FF1F0EBBC800BEC062;
+					};
+				};
+			};
+			buildConfigurationList = 8B5F96FB1F0EBBC800BEC062 /* Build configuration list for PBXProject "iTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B5F96F71F0EBBC800BEC062;
+			productRefGroup = 8B5F97011F0EBBC800BEC062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B5F96FF1F0EBBC800BEC062 /* iTranslator */,
+				8B5F971B1F0EBBC800BEC062 /* iTranslatorTests */,
+				8B5F97261F0EBBC800BEC062 /* iTranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B5F96FE1F0EBBC800BEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5F974D1F0EBCD200BEC062 /* Main.storyboard in Resources */,
+				8BAD6A8D1F115DAC006D671E /* LaunchAppLogo.png in Resources */,
+				8B5F97761F0FAE9A00BEC062 /* IAWordsTableViewCell.xib in Resources */,
+				8B5F97131F0EBBC800BEC062 /* Assets.xcassets in Resources */,
+				8B5F974C1F0EBCD200BEC062 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F971A1F0EBBC800BEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F97251F0EBBC800BEC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E59776FE7675AE4EB8FFAD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTranslator/Pods-iTranslator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EF97EE8E8002E8D0A6110F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTranslator/Pods-iTranslator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5F974E1F0EC07000BEC062 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run a768d1f69d7193bec53dca28fd7cfb955188d026 3c3851a549297bd44098011ca2db3feba2da2f31d08ca43beb216e0f652bf904";
+		};
+		8B5F977C1F0FF9F100BEC062 /* Mogenerator */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Mogenerator;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "MODEL_PATH=\"$PROJECT_DIR/$PROJECT_NAME/Classes/Model/$PROJECT_NAME.xcdatamodeld\"\nHUMAN_DIR=\"$PROJECT_DIR/$PROJECT_NAME/Classes/Model/Human\"\nMACHINE_DIR=\"$PROJECT_DIR/$PROJECT_NAME/Classes/Model/Machine\"\n/usr/local/bin/mogenerator --v2 --model $MODEL_PATH --human-dir $HUMAN_DIR --machine-dir $MACHINE_DIR";
+		};
+		A0A50CAB6A42B8027F5B73C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B5F96FC1F0EBBC800BEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5F977F1F0FFA7200BEC062 /* iTranslator.xcdatamodeld in Sources */,
+				8B5F978D1F10118A00BEC062 /* NSDictionary+Addition.m in Sources */,
+				8B5F97051F0EBBC800BEC062 /* main.m in Sources */,
+				8B5F97891F10099100BEC062 /* IAServerManager+Translation.m in Sources */,
+				8B5F97931F10313C00BEC062 /* _IAWord.m in Sources */,
+				8B5F97901F10263300BEC062 /* IADataBaseManager.m in Sources */,
+				8B5F97521F0EC37B00BEC062 /* IAWordsTableViewCell.m in Sources */,
+				8B5F97661F0F8EBC00BEC062 /* UIView+Addition.m in Sources */,
+				8B5F974B1F0EBCD200BEC062 /* AppDelegate.m in Sources */,
+				8B5F97961F10314600BEC062 /* IAWord.m in Sources */,
+				8B5F977B1F0FEFB400BEC062 /* IAServerManager.m in Sources */,
+				8B5F97611F0F85F800BEC062 /* IATableView.m in Sources */,
+				8BAD6A801F113764006D671E /* IAStartViewController.m in Sources */,
+				8B5F975E1F0F84BE00BEC062 /* IAInputContainerView.m in Sources */,
+				8B5F97731F0F9B4B00BEC062 /* IATranslatorCellBuilder.m in Sources */,
+				8B5F97551F0EC3A000BEC062 /* IATranslatorViewController.m in Sources */,
+				8B5F976A1F0F914D00BEC062 /* UIColor+Addition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F97181F0EBBC800BEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5F97211F0EBBC800BEC062 /* iTranslatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5F97231F0EBBC800BEC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5F972C1F0EBBC800BEC062 /* iTranslatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B5F971E1F0EBBC800BEC062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B5F96FF1F0EBBC800BEC062 /* iTranslator */;
+			targetProxy = 8B5F971D1F0EBBC800BEC062 /* PBXContainerItemProxy */;
+		};
+		8B5F97291F0EBBC800BEC062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B5F96FF1F0EBBC800BEC062 /* iTranslator */;
+			targetProxy = 8B5F97281F0EBBC800BEC062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B5F972E1F0EBBC800BEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B5F972F1F0EBBC800BEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5F97311F0EBBC800BEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C53CE4009D2CB62CF3752D /* Pods-iTranslator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 827FSHSMGP;
+				GCC_PREFIX_HEADER = iTranslator/iTranslator.pch;
+				INFOPLIST_FILE = iTranslator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B5F97321F0EBBC800BEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AC116A14F0841324DC05BC /* Pods-iTranslator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 827FSHSMGP;
+				GCC_PREFIX_HEADER = iTranslator/iTranslator.pch;
+				INFOPLIST_FILE = iTranslator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B5F97341F0EBBC800BEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTranslator.app/iTranslator";
+			};
+			name = Debug;
+		};
+		8B5F97351F0EBBC800BEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTranslator.app/iTranslator";
+			};
+			name = Release;
+		};
+		8B5F97371F0EBBC800BEC062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTranslatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTranslator;
+			};
+			name = Debug;
+		};
+		8B5F97381F0EBBC800BEC062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTranslatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IvanoffApps.iTranslatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTranslator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B5F96FB1F0EBBC800BEC062 /* Build configuration list for PBXProject "iTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F972E1F0EBBC800BEC062 /* Debug */,
+				8B5F972F1F0EBBC800BEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5F97301F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F97311F0EBBC800BEC062 /* Debug */,
+				8B5F97321F0EBBC800BEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5F97331F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F97341F0EBBC800BEC062 /* Debug */,
+				8B5F97351F0EBBC800BEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5F97361F0EBBC800BEC062 /* Build configuration list for PBXNativeTarget "iTranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5F97371F0EBBC800BEC062 /* Debug */,
+				8B5F97381F0EBBC800BEC062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B5F977D1F0FFA7200BEC062 /* iTranslator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B5F977E1F0FFA7200BEC062 /* iTranslator.xcdatamodel */,
+			);
+			currentVersion = 8B5F977E1F0FFA7200BEC062 /* iTranslator.xcdatamodel */;
+			path = iTranslator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B5F96F81F0EBBC800BEC062 /* Project object */;
+}

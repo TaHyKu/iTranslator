@@ -1,0 +1,6 @@
+framework module Pods_iTranslator {
+  umbrella header "Pods-iTranslator-umbrella.h"
+
+  export *
+  module * { export * }
+}
